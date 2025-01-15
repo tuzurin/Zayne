@@ -1,0 +1,159 @@
+/* ==========================================================================
+ Media Queries
+ ========================================================================== */
+
+/* ---------------------------------------------------------------------- */
+/*	Version 1024px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 1024px) {
+
+	body {
+	}
+
+}
+/* bug show menu mobiel when its hiden */
+@media handheld, only screen and (min-width: 767px) {
+
+	#mainnav {
+		display: block !important;
+	}
+}
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 767px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 767px) {
+	.container { width:94%;}
+	.menu-toggle {
+		display: block;
+	}
+	#main-nav {
+		display: none;
+		padding-top: 25px !important;
+		float: none !important;
+	}
+	#main-nav.inline-list li {
+		float: none !important;
+	}
+	#main-nav {
+		clear: both;
+	}
+
+	.forms .tab-pane .white-box {
+		min-height: 0;
+	}
+	.pricing .box_span {
+		width: 50%;
+		margin-bottom: 25px;
+	}
+	.btn-group.bootstrap-select {
+		max-width: 100%;
+	}
+	.map {
+		padding-bottom: 280px !important;
+	}
+	.map .innerBox {
+		background-position: center -25px;
+		font-size: 0.8em;
+		height: 100%;
+		left: 0;
+		margin: 0 35px;
+		max-width: 166px;
+		padding: 29px 10px;
+		position: absolute;
+		top: 0;
+		z-index: 5;
+	}
+
+	#slider .carousel-control {
+
+		top: 18%;
+	}
+	.team .span3 {
+		text-align: center;
+	}
+	.team .info ul.social {
+		margin: 0 auto;
+		text-align: center;
+		display: inline-block;
+		margin-bottom: 9%;
+	}
+
+.smile_img { text-align:center; margin-bottom:20px;}
+
+
+
+#main-nav li { border-bottom:1px dotted #aaa;}
+#main-nav li a { font-size:20px;}
+#main-nav li a:hover, #main-nav li a:focus, #main-nav li a:active { background:rgba(26,73,143,0.2);}
+#main-nav li:last-child { border:none;}
+
+#google_map { margin-top:30px; height:250px;}
+
+#goback_web_ul { clear:both; margin:30px 0;}
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 600px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 600px) {
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 568px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 568px) {
+
+	.map .innerBox {
+		background-position: center -25px;
+		font-size: 0.8em;
+		height: 100%;
+		left: auto;
+		margin: 0;
+		max-width: 127px;
+		padding: 29px 10px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 5;
+	}
+	
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 480px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 480px) {
+
+	.pricing .box_span {
+		float: none;
+		margin-left: 0;
+		width: 100%;
+		margin-bottom: 25px;
+	}
+
+}
+
+/* ---------------------------------------------------------------------- */
+/*	Mobile Version 320px
+ /* ---------------------------------------------------------------------- */
+
+@media handheld, only screen and (max-width: 340px) {
+	.stepy-titles > li {
+		padding: 0.5em 0;
+		text-align: center;
+		width: 31%;
+	}
+	.nav-tabs > li > a, .nav-pills > li > a {
+		line-height: 14px;
+		margin-right: 2px;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+}
+
